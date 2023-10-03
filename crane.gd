@@ -7,6 +7,8 @@ func _physics_process(delta):
 		velocity.x = -CRANE_SPEED
 	elif Input.is_action_pressed("ui_right"):
 		velocity.x = CRANE_SPEED
+	elif Input.is_action_pressed("ui_select"):
+		velocity.y = CRANE_SPEED
 	else:
 		velocity.x = 0
 	
