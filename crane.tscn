@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://b026yxwdqq3wq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f4m48"]
+size = Vector2(69, 65)
+
+[node name="Crane" type="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_f4m48")
