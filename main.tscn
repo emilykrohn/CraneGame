@@ -1,8 +1,12 @@
-[gd_scene load_steps=2 format=3 uid="uid://da3qgjsdv050s"]
+[gd_scene load_steps=3 format=3 uid="uid://da3qgjsdv050s"]
 
 [ext_resource type="PackedScene" uid="uid://b026yxwdqq3wq" path="res://crane.tscn" id="1_k2mhg"]
+[ext_resource type="PackedScene" uid="uid://b8rlobg5gkeui" path="res://ground.tscn" id="2_3di3x"]
 
 [node name="Main" type="Node"]
 
 [node name="Crane" parent="." instance=ExtResource("1_k2mhg")]
 position = Vector2(34, 33)
+
+[node name="Ground" parent="." instance=ExtResource("2_3di3x")]
+position = Vector2(572, 600)
