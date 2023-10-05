@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://b8rlobg5gkeui"]
 
-[ext_resource type="Texture2D" uid="uid://bwrb8qojorn64" path="res://crane_image.png" id="1_xndbr"]
+[ext_resource type="Texture2D" uid="uid://bwrb8qojorn64" path="res://Sprites/crane_image.png" id="1_xndbr"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_dg3fb"]
 

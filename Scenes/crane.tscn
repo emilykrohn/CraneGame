@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://b026yxwdqq3wq"]
 
-[ext_resource type="Script" path="res://crane.gd" id="1_sdmlp"]
-[ext_resource type="Texture2D" uid="uid://bwrb8qojorn64" path="res://crane_image.png" id="2_ao76r"]
+[ext_resource type="Script" path="res://Scripts/crane.gd" id="1_sdmlp"]
+[ext_resource type="Texture2D" uid="uid://bwrb8qojorn64" path="res://Sprites/crane_image.png" id="2_ao76r"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_f4m48"]
 size = Vector2(69, 65)
