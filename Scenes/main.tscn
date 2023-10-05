@@ -24,6 +24,5 @@ grow_horizontal = 2
 script = ExtResource("4_gb2g6")
 metadata/_edit_group_ = true
 
-[node name="Timer" parent="TimerLabel" instance=ExtResource("4_k4eui")]
-wait_time = 15.0
-autostart = true
+[node name="Timer" parent="." instance=ExtResource("4_k4eui")]
+wait_time = 10.0
