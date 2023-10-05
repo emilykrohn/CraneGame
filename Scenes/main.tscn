@@ -9,7 +9,7 @@
 [node name="Main" type="Node"]
 
 [node name="Crane" parent="." instance=ExtResource("1_k2mhg")]
-position = Vector2(57, 54)
+position = Vector2(57, 53)
 
 [node name="Ground" parent="." instance=ExtResource("2_3di3x")]
 position = Vector2(572, 600)

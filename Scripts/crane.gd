@@ -1,6 +1,7 @@
 extends CharacterBody2D
 
 const CRANE_SPEED := 200.0
+const CRANE_DROP_SPEED := 400.0
 var is_dropping := false
 var current_timer_seconds : float
 
@@ -8,7 +9,7 @@ func _process(delta):
 	current_timer_seconds = get_node("../Timer").get_time_left()
 	# if the timer has zero seconds left, then drop the crane
 	if current_timer_seconds <= 0:
-		velocity.y = CRANE_SPEED
+		velocity.y = CRANE_DROP_SPEED
 		is_dropping = true
 
 func _physics_process(delta):
@@ -21,7 +22,7 @@ func _physics_process(delta):
 	
 	# pressing the spacebar drops the crane
 	elif Input.is_action_pressed("ui_select"):
-		velocity.y = CRANE_SPEED
+		velocity.y = CRANE_DROP_SPEED
 		is_dropping = true
 	
 	else:
