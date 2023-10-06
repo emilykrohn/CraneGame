@@ -37,3 +37,5 @@ metadata/_edit_group_ = true
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CraneOpening"]
 position = Vector2(0, 16)
 shape = SubResource("RectangleShape2D_8oydq")
+
+[connection signal="body_entered" from="CraneOpening" to="." method="_on_crane_opening_body_entered"]

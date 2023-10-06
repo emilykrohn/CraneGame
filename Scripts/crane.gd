@@ -29,3 +29,8 @@ func _physics_process(delta):
 		velocity.x = 0
 	
 	move_and_slide()
+
+
+func _on_crane_opening_body_entered(body):
+	if velocity.y == 0:
+		print("hit")
