@@ -32,5 +32,5 @@ func _physics_process(delta):
 
 
 func _on_crane_opening_body_entered(body):
-	if velocity.y == 0:
+	if body == get_node("../Capsule"):
 		print("hit")
