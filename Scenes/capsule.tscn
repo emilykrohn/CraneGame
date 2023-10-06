@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://c872dgkxfkojy"]
+
+[ext_resource type="Texture2D" uid="uid://bwrb8qojorn64" path="res://Sprites/crane_image.png" id="1_bch1y"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oexif"]
+size = Vector2(10, 10)
+
+[node name="Capsule" type="StaticBody2D"]
+metadata/_edit_group_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_oexif")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(10, 10)
+texture = ExtResource("1_bch1y")
