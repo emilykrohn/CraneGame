@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://da3qgjsdv050s"]
+[gd_scene load_steps=7 format=3 uid="uid://da3qgjsdv050s"]
 
 [ext_resource type="PackedScene" uid="uid://b026yxwdqq3wq" path="res://Scenes/crane.tscn" id="1_k2mhg"]
 [ext_resource type="PackedScene" uid="uid://b8rlobg5gkeui" path="res://Scenes/ground.tscn" id="2_3di3x"]
 [ext_resource type="PackedScene" uid="uid://ddfxxrhh0y13r" path="res://Scenes/timer_label.tscn" id="3_0x3j7"]
 [ext_resource type="Script" path="res://Scripts/timer_label.gd" id="4_gb2g6"]
 [ext_resource type="PackedScene" uid="uid://7fimdys8iqed" path="res://Scenes/timer.tscn" id="4_k4eui"]
+[ext_resource type="PackedScene" uid="uid://c872dgkxfkojy" path="res://Scenes/capsule.tscn" id="6_sevcf"]
 
 [node name="Main" type="Node"]
 
@@ -28,3 +29,6 @@ metadata/_edit_group_ = true
 wait_time = 10.0
 one_shot = true
 autostart = true
+
+[node name="Capsule" parent="." instance=ExtResource("6_sevcf")]
+position = Vector2(304, 518)
