@@ -4,13 +4,13 @@
 [ext_resource type="Texture2D" uid="uid://yql8f0pb4pv8" path="res://Sprites/temp_crane.png" id="2_st0p5"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wv0e0"]
-size = Vector2(2.42857, 10.5)
+size = Vector2(2.5, 10.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_af4y0"]
-size = Vector2(2.71429, 10.5)
+size = Vector2(2.57143, 10.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8oydq"]
-size = Vector2(37.5, 27.9762)
+size = Vector2(39.2857, 28.5714)
 
 [node name="Crane" type="CharacterBody2D"]
 scale = Vector2(7, 7)
@@ -18,12 +18,11 @@ script = ExtResource("1_sdmlp")
 metadata/_edit_group_ = true
 
 [node name="LeftSideCollision" type="CollisionShape2D" parent="."]
-position = Vector2(-6.78571, 2.25)
-scale = Vector2(1, 1)
+position = Vector2(-6.75, 2.25)
 shape = SubResource("RectangleShape2D_wv0e0")
 
 [node name="RightSideCollision" type="CollisionShape2D" parent="."]
-position = Vector2(6.64286, 2.25)
+position = Vector2(6.71428, 2.25)
 scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_af4y0")
 
@@ -37,7 +36,7 @@ scale = Vector2(0.24, 0.24)
 metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CraneOpening"]
-position = Vector2(0.297618, 16.369)
+position = Vector2(1.06437e-06, 16.0714)
 scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_8oydq")
 
